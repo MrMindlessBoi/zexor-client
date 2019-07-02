@@ -32,7 +32,7 @@ public class Configuration {
 	public static long fogDelay = 500;
 	public static final String CLIENT_TITLE = "Zexor";
 	public static final int CLIENT_VERSION = 2;
-	public static Boolean LIVE_SERVER = true;
+	public static Boolean LIVE_SERVER = false; // false for localhost.
 	public static final int PORT = 43594;
 
 	public static Boolean DUMP_DATA = false;

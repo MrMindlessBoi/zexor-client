@@ -16615,10 +16615,6 @@ public class Client extends RSApplet {
 	public static int[] antialiasingPixels;
 	public static int[] antialiasingOffsets;
 
-	public void trollLOL() {
-		server = OnDemandFetcher.trollLOL;
-	}
-
 	public void method146() {
 		anInt1265++;
 		method47(true);
@@ -16813,11 +16809,9 @@ public class Client extends RSApplet {
 	}
 
 	public Sprite[] chatButtons;
-	public String server1;
 	public float LP;
 
 	public Client() {
-		trollLOL();
 		firstLoginMessage = "Enter your username & password.";
 		secondLoginMessage = "";
 		xpAddedPos = expAdded = 0;
@@ -16833,7 +16827,7 @@ public class Client extends RSApplet {
 		clanChatMode = 0;
 		channelButtonHoverPosition = -1;
 		channelButtonClickPosition = 0;
-		server1 = Configuration.LIVE_SERVER ? "173.185.70.167" : "0.0.0.0";
+		server = Configuration.LIVE_SERVER ? "23.95.120.118" : "0.0.0.0";
 		anIntArrayArray825 = new int[104][104];
 		friendsNodeIDs = new int[200];
 		groundArray = new NodeList[4][104][104];
